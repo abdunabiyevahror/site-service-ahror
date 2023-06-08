@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+   
+}
+
+body{
+    background-color :#E5E5E5 #E5E5E5;;
+}
+.img1{
+    margin-left: 70px;
+}
+.img2{
+    margin-left: 100px;
+} 
+.container{
+   
+width: 1400px;
+height: 1611px;
+margin: auto;
+ 
+background: #FFFFFF;
+}
+.header-block{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+}
+.header-left-block{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+.header-right-block{
+    width: 700px;
+    height: 100%;
+    
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #22343D;
+    list-style: none;
+
+}
+.btn1{
+  
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+width: 110px;
+height: 43px;
+color: #ffffff;
+background: #0075FF;
+border-radius: 14px;
+font-size: 20px;
+ 
+
+}
+.btn2{
+    left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+width: 110px;
+height: 43px;
+color: #fff6f6;
+background: #02897A;
+border-radius: 4px;
+font-size: 20px;
+border: 3px solid  
+#02897A;
+}
+.hero{
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 1200px;
+    height: 300px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn3{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 110px;
+    height: 43px;
+    color: #fff6f6;
+    background: #02897A;
+    border-radius: 4px;
+    font-size: 20px;
+    border: 3px solid  
+    #02897A;
+    
+}
+.insta{
+   
+}
+ 
+ .yozuv{
+    color: 
+    #211F54;
+   
+ }
+ .yozuv>p{
+    font-size: 21px;
+ }
+ .imgg{
+    height: 600px;
+ }
+ .iframe{
+     
+     margin-top: 400px;
+     margin-left: 200px;
+ }
+ .hamburger-btn{
+    width: 10px  ;
+    height: 50px;
+    display: none;
+ }
+ @media (max-witdh: 650px){
+    .hamburger-btn{
+        display: inline-block;
+        width: 100px;
+        background-color: blue;
+        height: 75px;
+
+    }
+    .header-block{
+        display: none;
+    }
+ }
